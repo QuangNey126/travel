@@ -35,7 +35,7 @@ const TabNavigator = () => {
         }}
       />
       <Tab.Screen
-        name="Liked"
+        name="Popup"
         component={Liked}
         options={{
           tabBarIcon: ({color}) => (
