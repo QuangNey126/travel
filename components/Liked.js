@@ -23,6 +23,9 @@ const Liked = () => {
 
     return (
         <SafeAreaView style={styles.container}>
+            <Text style={styles.text}>
+                {chooseData}
+            </Text>
             <TouchableOpacity
                 style={styles.touchableOpacity}
                 onPress={() => changeModalVisible(true)}
